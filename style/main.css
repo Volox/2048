@@ -322,44 +322,44 @@ hr {
     background-color: #eee4da;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/2.png");
+    background-image: url("/2048-hodor/img/2.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background-color: #ede0c8;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/4.png");
+    background-image: url("/2048-hodor/img/4.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
     background-color: #f2b179;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/8.png"); }
+    background-image: url("/2048-hodor/img/8.png"); }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
     background-color: #f59563;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/16.png"); }
+    background-image: url("/2048-hodor/img/16.png"); }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
     background-color: #f67c5f;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/32.png"); }
+    background-image: url("/2048-hodor/img/32.png"); }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     background-color: #f65e3b;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/64.png"); }
+    background-image: url("/2048-hodor/img/64.png"); }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background-color: #edcf72;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/128.png");
+    background-image: url("/2048-hodor/img/128.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -370,7 +370,7 @@ hr {
     background-color: #edcc61;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/256.png");
+    background-image: url("/2048-hodor/img/256.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -381,7 +381,7 @@ hr {
     background-color: #edc850;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/512.png");
+    background-image: url("/2048-hodor/img/512.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -392,7 +392,7 @@ hr {
     background-color: #edc53f;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/img/1024.png");
+    background-image: url("/2048-hodor/img/1024.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
@@ -401,6 +401,9 @@ hr {
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background-color: #edc22e;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/2048-hodor/img/2048.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
