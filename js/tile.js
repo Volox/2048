@@ -19,10 +19,10 @@ Tile.valueMap[ 64 ] = ' ';
 Tile.valueMap[ 128 ] = ' ';
 Tile.valueMap[ 256 ] = ' ';
 Tile.valueMap[ 512 ] = ' ';
-Tile.valueMap[ 1024 ] = 'HODOR';
-Tile.valueMap[ 2048 ] = 'HOOOODOR!!!';
-Tile.valueMap[ 4096 ] = 'hodor';
-Tile.valueMap[ 8192 ] = 'hodor';
+Tile.valueMap[ 1024 ] = ' ';
+Tile.valueMap[ 2048 ] = '';
+Tile.valueMap[ 4096 ] = 'HODOR!';
+Tile.valueMap[ 8192 ] = 'HODOOOR';
 
 Tile.prototype.savePosition = function () {
   this.previousPosition = { x: this.x, y: this.y };
