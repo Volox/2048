@@ -373,12 +373,10 @@ hr {
 
       // Set background
       background-color: $mixed-background;
+      background-position: center;
+      background-repeat: no-repeat;
 
-      @if $power<=1028 {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: url('/img/#{$power}.png');
-      }
+      background-image: url('/2048-hodor/img/#{$power}.png');
 
       // Add glow
       $glow-opacity: max($exponent - 4, 0) / ($limit - 4);
